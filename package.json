@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eme.github.io/react-tutorial",
+  "homepage": "https://mjbenitez.github.io/react-tutorial/",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

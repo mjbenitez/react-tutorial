@@ -1,25 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Table from './Table';
+import Form from './Form';
 
 class App extends Component {
+//state object will contain properties for everything we want to store
+  state = {
+    characters: []
+  };
+
+  removeCharacter = index => {
+    const { characters } = this.state;
+    //we have to use this.setState to modify an array
+    this.setState({
+      //filter the array based on an index that we pass through.
+      //Filter does not mutate but creates a new array, is a preferred method
+      characters: characters.filter((character, i) => {
+        //return the new array
+        return i !== index;
+      })
+    });
+  }
+
+  handleSubmit = character => {
+    this.setState ({characters: [...this.state.characters, character]});
+  }
+
   render() {
+    const { characters } = this.state;
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="container">
+        <Table
+          characterData={characters}
+          removeCharacter={this.removeCharacter} />
+          <Form handleSubmit={this.handleSubmit}/>
       </div>
     );
   }

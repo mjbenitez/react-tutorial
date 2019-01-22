@@ -1,13 +1,13 @@
 {
-  "main.css": "/mjbenitez/react-tutorial/static/css/main.5b9359e7.chunk.css",
-  "main.js": "/mjbenitez/react-tutorial/static/js/main.457e1ce2.chunk.js",
-  "main.js.map": "/mjbenitez/react-tutorial/static/js/main.457e1ce2.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "/mjbenitez/react-tutorial/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "/mjbenitez/react-tutorial/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "/mjbenitez/react-tutorial/static/js/runtime~main.31c06e54.js",
-  "runtime~main.js.map": "/mjbenitez/react-tutorial/static/js/runtime~main.31c06e54.js.map",
-  "static/css/main.5b9359e7.chunk.css.map": "/mjbenitez/react-tutorial/static/css/main.5b9359e7.chunk.css.map",
-  "index.html": "/mjbenitez/react-tutorial/index.html",
-  "precache-manifest.a21265da789592dacf0586e839473b88.js": "/mjbenitez/react-tutorial/precache-manifest.a21265da789592dacf0586e839473b88.js",
-  "service-worker.js": "/mjbenitez/react-tutorial/service-worker.js"
+  "main.css": "/react-tutorial/static/css/main.5b9359e7.chunk.css",
+  "main.js": "/react-tutorial/static/js/main.457e1ce2.chunk.js",
+  "main.js.map": "/react-tutorial/static/js/main.457e1ce2.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "/react-tutorial/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "/react-tutorial/static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "/react-tutorial/static/js/runtime~main.d6d0aa42.js",
+  "runtime~main.js.map": "/react-tutorial/static/js/runtime~main.d6d0aa42.js.map",
+  "static/css/main.5b9359e7.chunk.css.map": "/react-tutorial/static/css/main.5b9359e7.chunk.css.map",
+  "index.html": "/react-tutorial/index.html",
+  "precache-manifest.122d914093a9e6c108037c8d6514e9cf.js": "/react-tutorial/precache-manifest.122d914093a9e6c108037c8d6514e9cf.js",
+  "service-worker.js": "/react-tutorial/service-worker.js"
 }
